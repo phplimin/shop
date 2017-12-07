@@ -33,7 +33,7 @@
         </td>
     <td width="10%">0</td>
     <td width="24%" align="center">
-      <a href="">属性列表</a> |
+      <a href="<?php echo U('Attribute/lst', array('type_id' => $v['id']));?>">属性列表</a> |
       <a href="<?php echo U('edit', array('type_id' => $v['id']));?>">编辑</a> |
       <a href="<?php echo U('del', array('type_id' => $v['id']));?>" onclick="return confirm('确定删除吗？')" title="移除">移除</a>
     </td>

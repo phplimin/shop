@@ -10,7 +10,7 @@
 <body>
 
 <h1>
-<span class="action-span"><a href="catelist.html">商品分类</a></span>
+<span class="action-span"><a href="<?php echo U('lst');?>">商品类型列表</a></span>
 <span class="action-span1"><a href="#">ECSHOP 管理中心</a> </span><span id="search_id" class="action-span1"> - 添加商品类型 </span>
 <div style="clear:both"></div>
 </h1>
